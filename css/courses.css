@@ -68,30 +68,7 @@ ul {
     width: 1170px;
   }
 }
-/*--- Start ---*/
-.search-box .container{
-  margin-top: 75px;
-  position: relative;
-  text-align: end;
-}
-.search-box .container input {
-  padding: 17px 30px;
-  font-weight: bold;
-  font-size: 19px;
-  border-radius: 12px;
-  border: none;
-  background-color: #f5f5f5;
-  width: 345px;
-  caret-color: var(--primary);
-}
-.search-box .container i {
-  position: absolute;
-  font-size: 20px;
-  color: #777;
-  top: 20px;
-  right: 40px;
-  cursor: pointer;
-}
+/*--- Title Area ---*/
 .title-area{
   text-align: center;
   background-color: #f5f9fa;
@@ -117,6 +94,33 @@ ul {
 .title-area .link-to-courses a:hover {
   color: var(--primary);
 }
+
+/*--- Search input ---*/
+.search-box .container{
+  margin-top: 75px;
+  position: relative;
+  text-align: end;
+}
+.search-box .container input {
+  padding: 17px 30px;
+  font-weight: bold;
+  font-size: 19px;
+  border-radius: 12px;
+  border: none;
+  background-color: #f5f5f5;
+  width: 345px;
+  caret-color: var(--primary);
+}
+.search-box .container i {
+  position: absolute;
+  font-size: 20px;
+  color: #777;
+  top: 20px;
+  right: 40px;
+  cursor: pointer;
+}
+
+/*--- Courses-Section ---*/
 .courses-section {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -126,6 +130,7 @@ ul {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 25px;
 }
+
 /*--- courses-section ---*/
 .courses-section .course {
   max-width: 360px;
